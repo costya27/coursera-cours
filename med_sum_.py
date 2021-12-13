@@ -6,3 +6,4 @@ while now != 0:
     sumSeq += now
     s += 1
 print(sumSeq/s)
+print(s)
