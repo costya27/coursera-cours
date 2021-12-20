@@ -8,4 +8,5 @@ while n != 0:
         i = 0
     elif n == m:
         i += 1
-    elif m == n:
+
+
