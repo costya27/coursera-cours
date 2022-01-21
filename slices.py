@@ -1,11 +1,15 @@
-s = input()
-s1 = s[::-1]
-print(s[2])
-print(s[-2])
-print(s[0:5])
-print(s[:-2])
-print(s[::2])
-print(s[::3])
-print(s[::-1])
-print(s1[::2])
-print(len(s))
+if __name__ == '__main__':
+    s = input()
+    s1 = s[::-1]
+    print(s[2])
+    print(s[-2])
+    print(s[0:5])
+    print(s[:-2])
+    print(s[::2])
+    print(s[::1])
+    print(s[::-1])
+    print(s1[::2])
+    print(len(s))
+
+def test_func(a, b):
+    return a + b
