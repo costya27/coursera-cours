@@ -10,6 +10,3 @@ if __name__ == '__main__':
     print(s[::-1])
     print(s1[::2])
     print(len(s))
-
-def test_func(a, b):
-    return a + b
